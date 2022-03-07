@@ -46,8 +46,8 @@ public class problema_candidatos {
     }
 
     private void intercambio(int[] candidatos, int a, int b) {
-        int temp = candidatos[a];
+        int aux = candidatos[a];
         candidatos[a] = candidatos[b];
-        candidatos[b] = temp;
+        candidatos[b] = aux;
     }
 }
